@@ -33,11 +33,11 @@ function B(note) {
 // Boucle For (vu dans le slide 45)
 // Condition If/Else (vu dans le slide 43)
 function A() {
-    for (let i = 0; i < Students.length; i++) {
-        if (B(Students[i][3])) {
-            console.log(Students[i][0] + ": ADMIS");
+    for (let i = 0; i <Students.length; i++) {
+        if (B(Students[i].note)) {
+            console.log(Students[i].id + ": ADMIS");
         } else {
-            console.log(Students[i][0] + ": AJOURNÉ");
+            console.log(Students[i].id + ": AJOURNÉ");
         }
     }
 }
